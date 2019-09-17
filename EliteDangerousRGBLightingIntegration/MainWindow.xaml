@@ -1,0 +1,21 @@
+﻿<Window x:Class="EliteDangerousRGBLightingIntegration.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:EliteDangerousRGBLightingIntegration"
+        mc:Ignorable="d"
+        Title="Elite Dangerous Light Sync" Height="450" Width="800">
+    <Grid>
+        <TextBlock HorizontalAlignment="Center" Margin="0,44,0,0" TextWrapping="Wrap" Text="ELITE DANGEROUS LIGHT SYNC" VerticalAlignment="Top" FontFamily="Euro Caps" FontSize="48"/>
+        <CheckBox Content="LIFX Functionality" HorizontalAlignment="Left" Margin="131,131,0,0" VerticalAlignment="Top"/>
+        <CheckBox Content="Cue Functionality" HorizontalAlignment="Left" Margin="293,200,0,0" VerticalAlignment="Top"/>
+        <CheckBox Content="Chroma Functionality" HorizontalAlignment="Left" Margin="131,200,0,0" VerticalAlignment="Top"/>
+        <CheckBox Content="Hue Functionality" HorizontalAlignment="Left" Margin="293,131,0,0" VerticalAlignment="Top"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="131,160,0,0" TextWrapping="Wrap" Text="LIFX Key..." VerticalAlignment="Top" Width="120"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="293,160,0,0" TextWrapping="Wrap" Text="Hue IP Address..." VerticalAlignment="Top" Width="120"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="452,123,0,0" TextWrapping="Wrap" Text="ED Log File Location..." VerticalAlignment="Top" Width="211"/>
+        <Button Content="Start" HorizontalAlignment="Left" Margin="452,160,0,0" VerticalAlignment="Top" Width="211" Height="55"/>
+
+    </Grid>
+</Window>
