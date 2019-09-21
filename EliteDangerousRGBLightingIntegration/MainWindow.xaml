@@ -8,14 +8,15 @@
         Title="Elite Dangerous Light Sync" Height="450" Width="800">
     <Grid>
         <TextBlock HorizontalAlignment="Center" Margin="0,44,0,0" TextWrapping="Wrap" Text="ELITE DANGEROUS LIGHT SYNC" VerticalAlignment="Top" FontFamily="Euro Caps" FontSize="48"/>
-        <CheckBox Content="LIFX Functionality" HorizontalAlignment="Left" Margin="131,131,0,0" VerticalAlignment="Top"/>
-        <CheckBox Content="Cue Functionality" HorizontalAlignment="Left" Margin="293,200,0,0" VerticalAlignment="Top"/>
-        <CheckBox Content="Chroma Functionality" HorizontalAlignment="Left" Margin="131,200,0,0" VerticalAlignment="Top"/>
-        <CheckBox Content="Hue Functionality" HorizontalAlignment="Left" Margin="293,131,0,0" VerticalAlignment="Top"/>
-        <TextBox HorizontalAlignment="Left" Height="23" Margin="131,160,0,0" TextWrapping="Wrap" Text="LIFX Key..." VerticalAlignment="Top" Width="120"/>
+        <CheckBox x:Name="lifx" Content="LIFX Functionality" HorizontalAlignment="Left" Margin="131,131,0,0" VerticalAlignment="Top"/>
+        <CheckBox x:Name="cue" Content="Cue Functionality" HorizontalAlignment="Left" Margin="293,200,0,0" VerticalAlignment="Top"/>
+        <CheckBox x:Name="chroma" Content="Chroma Functionality" HorizontalAlignment="Left" Margin="131,200,0,0" VerticalAlignment="Top"/>
+        <CheckBox x:Name="hue" Content="Hue Functionality" HorizontalAlignment="Left" Margin="293,131,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="lifxKey" HorizontalAlignment="Left" Height="23" Margin="131,160,0,0" TextWrapping="Wrap" Text="LIFX Key..." VerticalAlignment="Top" Width="120"/>
         <TextBox HorizontalAlignment="Left" Height="23" Margin="293,160,0,0" TextWrapping="Wrap" Text="Hue IP Address..." VerticalAlignment="Top" Width="120"/>
-        <TextBox HorizontalAlignment="Left" Height="23" Margin="452,123,0,0" TextWrapping="Wrap" Text="ED Log File Location..." VerticalAlignment="Top" Width="211"/>
-        <Button Content="Start" HorizontalAlignment="Left" Margin="452,160,0,0" VerticalAlignment="Top" Width="211" Height="55"/>
+        <TextBox x:Name="logLocation" HorizontalAlignment="Left" Height="23" Margin="511,123,0,0" TextWrapping="Wrap" Text="ED Log File Location..." VerticalAlignment="Top" Width="152"/>
+        <Button Content="Start" HorizontalAlignment="Left" Margin="452,160,0,0" VerticalAlignment="Top" Width="211" Height="55" Click="Button_Click"/>
+        <Button Content="Browse" HorizontalAlignment="Left" Margin="452,123,0,0" VerticalAlignment="Top" Width="45" Height="23" Click="Folder_Click"/>
 
     </Grid>
 </Window>
