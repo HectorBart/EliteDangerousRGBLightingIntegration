@@ -7,3 +7,5 @@ Credit to https://edassets.org/#/ for making Elite Dangerous assets freely avail
 This is still in development, bugs are still present and many features are to be added in the future.
 
 This is a C# rewrite of a program that I wrote in Python (https://github.com/HectorBart/Elite-Dangerous-RGB-Lighting-Integration). 
+
+Development is on hold for the foreseeable future, however, I would still appreciate anyone continuing the project on both this version and the Python version.
